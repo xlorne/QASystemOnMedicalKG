@@ -26,20 +26,20 @@ sh install.sh
 
 ```
 
-### 修改neo4j密码
+* 修改neo4j密码
 
 为了与项目代码的环境配置一致，建议修改密码为Lorne@2023
 
 
-### 运行jupyter代码
+* 运行jupyter代码
 
-* [install.ipynb](install.ipynb)
+> [install.ipynb](install.ipynb)
 
-* [json2csv.ipynb](json2csv.ipynb)
+> [json2csv.ipynb](json2csv.ipynb)
 
-* [csv2neo4j.ipynb](csv2neo4j.ipynb)
+> [csv2neo4j.ipynb](csv2neo4j.ipynb)
 
-* [run_test.ipynb](run_test.ipynb)
+> [run_test.ipynb](run_test.ipynb)
 
 
 
