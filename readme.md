@@ -28,7 +28,7 @@ sh install.sh
 
 * 修改neo4j密码
 
-为了与项目代码的环境配置一致，默认密码为neo4j/neo4j，建议修改密码为Lorne@2023
+为了与项目代码的环境配置一致，默认密码为neo4j/neo4j，建议修改密码为Lorne@2022
 
 
 * 运行jupyter代码
