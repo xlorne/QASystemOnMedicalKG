@@ -6,7 +6,8 @@ from question_classifier import QuestionClassifier
 import time
 import zhipuai
 
-
+zhipuai.api_key = "-"
+    
 class Runner:
     def __init__(self):
         self.history = ""
@@ -22,7 +23,7 @@ class Runner:
             time.sleep(0.02)
     
     def llm_request(self, question):
-        zhipuai.api_key = "-"
+       
         response = zhipuai.model_api.invoke(
             model="chatglm_std",
             prompt=[

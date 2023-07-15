@@ -1,4 +1,4 @@
-# QABasedOnMedicaKnowledgeGraph
+# QABasedOnMedicaKnowledgeGraph & ChatGLM-6B问答
 
 self-implement of disease centered Medical graph from zero to full and sever as question answering base. 从无到有搭建一个以疾病为中心的一定规模医药领域知识图谱，并以该知识图谱完成自动问答与分析服务。
 
@@ -8,6 +8,8 @@ self-implement of disease centered Medical graph from zero to full and sever as 
 本项目完全参考 https://github.com/liuhuanyong/QASystemOnMedicalKG  
 
 由于QASystemOnMedicalKG项目工程时间比较久，很多代码已经与最新的技术不兼容，因此重新修改了Neo4j层面的代码，然后重新适配的项目。
+
+ChatGLM-6B大模型问答功能代码，由[assmdx](https://github.com/assmdx)贡献
 
 ## 运行说明
 
@@ -39,7 +41,9 @@ sh install.sh
 
 > [csv2neo4j.ipynb](csv2neo4j.ipynb)
 
-> [run_test.ipynb](run_test.ipynb)
+> [run_textmatch.ipynb](run_textmatch.ipynb)
+
+> [run_chatglm6b.ipynb](run_chatglm6b.ipynb) 
 
 
 
