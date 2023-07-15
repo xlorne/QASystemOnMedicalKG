@@ -6,14 +6,14 @@ class QuestionClassifier:
         # cur_dir = '/'.join(os.path.abspath(__file__).split('/')[:-1])
         cur_dir = os.getcwd()
         #　特征词路径
-        self.disease_path = os.path.join(cur_dir, 'dict\\disease.txt')
-        self.department_path = os.path.join(cur_dir, 'dict\\department.txt')
-        self.check_path = os.path.join(cur_dir, 'dict\\check.txt')
-        self.drug_path = os.path.join(cur_dir, 'dict\\drug.txt')
-        self.food_path = os.path.join(cur_dir, 'dict\\food.txt')
-        self.producer_path = os.path.join(cur_dir, 'dict\\producer.txt')
-        self.symptom_path = os.path.join(cur_dir, 'dict\\symptom.txt')
-        self.deny_path = os.path.join(cur_dir, 'dict\\deny.txt')
+        self.disease_path = os.path.join(cur_dir, 'dict/disease.txt')
+        self.department_path = os.path.join(cur_dir, 'dict/department.txt')
+        self.check_path = os.path.join(cur_dir, 'dict/check.txt')
+        self.drug_path = os.path.join(cur_dir, 'dict/drug.txt')
+        self.food_path = os.path.join(cur_dir, 'dict/food.txt')
+        self.producer_path = os.path.join(cur_dir, 'dict/producer.txt')
+        self.symptom_path = os.path.join(cur_dir, 'dict/symptom.txt')
+        self.deny_path = os.path.join(cur_dir, 'dict/deny.txt')
         # 加载特征词
         self.disease_wds= [i.strip() for i in open(self.disease_path,encoding="utf-8") if i.strip()]#encoding="utf-8"
         self.department_wds= [i.strip() for i in open(self.department_path,encoding="utf-8") if i.strip()]
@@ -48,7 +48,7 @@ class QuestionClassifier:
         self.cure_qwds = ['治疗什么', '治啥', '治疗啥', '医治啥', '治愈啥', '主治啥', '主治什么', '有什么用', '有何用', '用处', '用途',
                           '有什么好处', '有什么益处', '有何益处', '用来', '用来做啥', '用来作甚', '需要', '要']
 
-        print('model init finished ......')
+        # print('model init finished ......')
 
         return
 
