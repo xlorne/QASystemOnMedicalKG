@@ -41,9 +41,9 @@ sh install.sh
 
 > [csv2neo4j.ipynb](csv2neo4j.ipynb)
 
-> [run_textmatch.ipynb](run_textmatch.ipynb)
+> [run_textmatch.ipynb](run_textmatch.ipynb) | 基于Neo4j的规则匹配的问答系统
 
-> [run_chatglm6b.ipynb](run_chatglm6b.ipynb) 
+> [run_chatglm6b.ipynb](run_chatglm6b.ipynb) | 基于ChatGLM-6B的问答优化的问答系统
 
 
 
